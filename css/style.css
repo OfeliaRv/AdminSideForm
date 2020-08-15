@@ -1,0 +1,189 @@
+nav {
+  width: 100%;
+  height: 140px;
+  background-color: cornflowerblue;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+nav h1 {
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.required {
+  color: red;
+}
+
+.option-en,
+.option-az {
+  margin: 0 10px;
+  height: 50px;
+  width: 326px;
+}
+
+.form-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 30px;
+}
+
+.form-control {
+  width: auto !important;
+}
+
+.form-group,
+.form-description,
+.add-section,
+.choose-section {
+  border: 1px solid cornflowerblue;
+  border-radius: 7px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 800px !important;
+}
+
+.form-group .heading {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form-section-heading {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.form-section-heading .heading-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section-heading .options {
+  display: flex;
+}
+
+.add-item,
+.add-field {
+  display: flex;
+  margin: 10px 0;
+}
+
+.add-item p,
+.add-field p {
+  color: cornflowerblue;
+  font-weight: 500;
+}
+
+.add-item-icon {
+  margin-top: 5px;
+  margin-right: 9px;
+}
+
+.add-item,
+.add-field,
+.add-section,
+.delete-section,
+.delete-item,
+.edit-item,
+.edit-section {
+  cursor: pointer;
+}
+
+.delete-section,
+.delete-item,
+.edit-section {
+  margin: 0 5px;
+}
+
+form .form-check {
+  margin: 10px 0;
+}
+
+form .check {
+  padding: 25px;
+}
+
+.check-label {
+  display: flex;
+}
+
+.form-check-label {
+  display: flex;
+}
+
+.form-check-label svg {
+  margin-bottom: 23px;
+  align-self: center;
+}
+
+.add-section {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-section p,
+.add-section svg {
+  font-size: 25px;
+}
+
+.add-section svg {
+  margin: 8px;
+}
+
+.choose-section {
+  display: none;
+}
+
+.choose-section h3 {
+  text-align: center;
+  font-size: 23px;
+  padding: 15px 0;
+  color: cornflowerblue;
+}
+
+.choose-options {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 12px;
+}
+
+.choose-options .choose-item {
+  padding: 1px;
+  border: 1px solid cornflowerblue;
+  margin: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 15%;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose-item p {
+  margin: 0;
+}
